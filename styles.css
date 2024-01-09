@@ -1,0 +1,226 @@
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(250, 242, 242);
+}
+header{
+    width: 100%;
+    background-color: #c6a6ff;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    margin-top:0 ;
+}
+
+header h3{
+    color: rgb(239, 244, 244);
+    padding: 0;
+    padding-left: 15px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-size: 25px;
+    font-weight: 400;
+
+}
+header ul{
+    padding-top: 15px;
+}
+header li{
+    display: inline;
+    padding-right: 15px;
+     
+}
+header a{
+    text-decoration: none;
+    color:rgb(239, 244, 244);
+    font-size: 20px;
+}
+header a:hover{
+    cursor: pointer;
+    color: rgb(42, 11, 72);
+}
+
+.conter{
+    border:1px solid black;
+    margin: 70px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255)
+}
+.conter h2{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+.colors{
+    margin-top:120px;
+}
+.colors .col{
+    border-top:1px dotted black ;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-top: 30px;
+}
+.col-con{
+  /* max-width: 200px; */
+  text-align: center;
+  color:white;
+font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.col .bl{
+    background-color: #7f95ec;
+
+}
+.col .re{
+    background-color: #f44040;
+
+}
+
+.col .wi{
+    background-color: #e4ddd4;
+
+}
+.col .pr{
+    background-color: #e4b1f3;
+
+}
+
+.col .Pi{
+    background-color: #f988cf;
+
+}
+.col .gr{
+    background-color: rgb(189, 207, 168);
+
+}
+.col .bx{
+    background-color: #98dfe1;
+
+}
+
+.col .so{
+    background-color: #f4a46b;
+
+}
+
+.font{
+    border-top:1px dotted black ;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,500px);
+}
+
+.font .col-font{
+    border-left:1px solid black;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.font .Source{
+    font-family:Helvetica, sans-serif;
+}
+
+.font .col-font .bold{
+    font-weight: bold;
+}
+.font .col-font .itlac{
+    font-style:italic;
+}
+
+.font .Oswald{
+    font-family: 'Oswald', sans-serif;
+}
+.font .Poppins{
+    font-family: 'Bebas Neue', sans-serif;
+}
+.font .Tomorrow{
+    font-family: 'Tomorrow', sans-serif;
+}
+.font .Times{
+    font-family: 'Times New Roman', Times, serif;
+}
+.font .Franklin{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+ .col-text{
+    border-top:1px dotted black;
+    padding: 20px;
+}
+.col-text .h22{
+    text-align: left;
+    Font-size:18px;
+    Font-weight :500;
+   
+    font-family: 'Bebas Neue', sans-serif;
+}
+.col-text h1{
+    Font-weight :700;
+    Font-size:26px;
+
+}
+.buttons-col{
+    border-top:1px dotted black;
+    padding: 20px 100px ; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill,90px);
+    gap: 20px;
+}
+.buttons-col .button{
+height:50px ;
+background-color: #c6a6ff;
+border: none;
+color:white;
+font-size: 15px;
+font-weight: 700;
+border-radius: 5px;
+text-decoration: none;
+cursor: pointer;
+}
+
+.buttons-col button:nth-child(1) , .buttons-col button:nth-child(2){
+    background-color:white; 
+    border: 2px solid #c6a6ff;
+    color:#c6a6ff;
+}
+.buttons-col button:nth-child(1):hover{
+   font-size: 18px;
+   height: 55px;
+}
+
+
+.buttons-col button:nth-child(2):hover{
+    background-color:#c6a6ff;
+    color: white;
+    transition:color 1s , background-color 1s;
+}
+
+.buttons-col button:nth-child(3){
+    background-color:#4d317d; 
+    border: 2px solid #4d317d;
+    color:white;
+ }
+ .buttons-col button:nth-child(3):hover{
+    background-color:#c6a6ff;
+    color: white;
+    transition:color 1s , background-color 1s;
+}
+.buttons-col button:nth-child(3):active{
+   font-size: 18px;
+}
+
+.buttons-col button:nth-child(4){
+    background-color:#4d317d; 
+    border: 2px solid #4d317d;
+    color:white;
+    border-radius: 40%;
+ }
+ .buttons-col button:nth-child(4):hover{
+    background-color:#c6a6ff;
+    color: white;
+    transition:color 1s , background-color 1s;
+}
